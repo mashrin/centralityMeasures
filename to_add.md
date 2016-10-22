@@ -1,5 +1,5 @@
-~~Degree~~ - Added _
-~~Eigen vector~~ - Added _
-~~Betweeness~~ - Added _
-~~Closeness~~ - Added _
+~~Degree~~ - Added<br />
+~~Eigen vector~~ - Added<br />
+~~Betweeness~~ - Added<br />
+~~Closeness~~ - Added<br />
 ** Nothing left to add. **
