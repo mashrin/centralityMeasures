@@ -1,14 +1,13 @@
 function C=closeness(adj)
 [m n]=size(adj); 
-C=zeros(length(adj),1);  % initialize closeness vector
+C=zeros(length(adj),1);
 for i=1:length(adj); C(i)=(n-1)/sum( simple_dijkstra(adj,i) );
 end
 function d = simple_dijkstra(adj,s)
  n=length(adj);
-d = inf*ones(1,n); % distance s-all nodes
-d(s) = 0;    % s-s distance
-T = 1:n;    % node set with shortest paths not found
- 
+d = inf*ones(1,n);\
+d(s) = 0;
+T = 1:n;
 while not(isempty(T))
     [dmin,ind] = min(d(T));
     for j=1:length(T)
